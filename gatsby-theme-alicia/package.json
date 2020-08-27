@@ -1,0 +1,24 @@
+{
+	"name": "gatsby-theme-alicia",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"develop": "gatsby develop",
+		"clean": "gatsby clean",
+		"build": "gatsby build"
+	},
+	"peerDependencies": {
+		"gatsby": "^2.24.51",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	},
+	"devDependencies": {
+		"gatsby": "^2.24.51",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	},
+	"dependencies": {
+		"mkdirp": "^1.0.4"
+	}
+}

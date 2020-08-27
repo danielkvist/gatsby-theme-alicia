@@ -1,0 +1,17 @@
+{
+	"name": "example",
+	"version": "1.0.0",
+	"main": "gatsby-config.js",
+	"license": "MIT",
+	"scripts": {
+		"develop": "gatsby develop",
+		"clean": "gatsby clean",
+		"build": "gatsby build"
+	},
+	"dependencies": {
+		"gatsby": "^2.24.51",
+		"gatsby-theme-alicia": "*",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	}
+}

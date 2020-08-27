@@ -1,0 +1,16 @@
+{
+	"private": true,
+	"scripts": {
+		"start": "yarn workspace example develop",
+		"theme-dev": "yarn workspace gatsby-theme-alicia develop",
+		"example-dev": "yarn workspace example develop",
+		"theme-build": "yarn workspace gatsby-theme-alicia build",
+		"example-build": "yarn workspace example build",
+		"theme-clean": "yarn workspace gatsby-theme-alicia clean",
+		"example-clean": "yarn workspace example clean"
+	},
+	"workspaces": [
+		"gatsby-theme-alicia",
+		"example"
+	]
+}
